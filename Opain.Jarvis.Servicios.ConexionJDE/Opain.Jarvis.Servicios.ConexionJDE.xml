@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Opain.Jarvis.Servicios.ConexionJDE</name>
+    </assembly>
+    <members>
+        <member name="M:Opain.Jarvis.Servicios.ConexionJDE.Controllers.IntegracionController.TraerVuelos(System.String)">
+            <summary>
+            Traer vuelos de JDE
+            </summary>
+            <param name="fechaIntegracion">Formato (dd/MM/yyyy)</param>
+            <returns></returns>
+        </member>
+        <member name="T:Opain.Jarvis.Servicios.ConexionJDE.Query.ActualizaExento">
+            <summary>
+            ActualizaExento
+            </summary>
+        </member>
+        <member name="M:Opain.Jarvis.Servicios.ConexionJDE.Query.ActualizaExento.ConvertToJulian(System.DateTime)">
+            <summary>
+            ConvertToJulian
+            </summary>
+            <param name="Date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Opain.Jarvis.Servicios.ConexionJDE.Query.ActualizaExento.ConsultaUtlRow(System.String,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            ConsultaUtlRow
+            </summary>
+            <param name="tblName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Opain.Jarvis.Servicios.ConexionJDE.Query.Informe10">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Opain.Jarvis.Servicios.ConexionJDE.Query.Informe10.Consulta(Opain.Jarvis.Servicios.ConexionJDE.Repositorio.FiltroBusqueda,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="filtro"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Opain.Jarvis.Servicios.ConexionJDE.Query.Informe15">
+            <summary>
+            Puentes de abordaje ampliación LA33 
+            </summary>
+        </member>
+        <member name="T:Opain.Jarvis.Servicios.ConexionJDE.Query.Informe5">
+            <summary>
+            Informe de Mostradores
+            </summary>
+        </member>
+        <member name="T:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosConsultaEX">
+            <summary>
+            Clase datosExento tiene la finalidad de 
+            </summary>
+        </member>
+        <member name="T:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento">
+            <summary>
+            Clase DatosExento tiene la finalidad de c
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.PEQ70IDP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.PEQ70EST">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.PEQ70IDX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.PEQ70TER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEQ70IDX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AELNID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEQ70EST">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEURCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEURDT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEURAT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEURAB">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEURRF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEUSER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEPID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEJOBN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEUPMJ">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.AEUPMT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APQ70IDP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APLNID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APQ70CAU">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APDL011">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APEV01">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APDSC1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APDSC2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APDSC3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APQ70EST">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APURCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APURAT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APURAB">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APURRF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APTORG">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APUSER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APPID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APJOBN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APUPMJ">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.APUPMT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.PEQ70CVO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.PEQ70FRL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.PEQ70IDPPAX1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.PEQ70IDPPAX2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.DatosExento.viajo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.EjecutorIntegracion.GrabarVuelos(System.Collections.Generic.List{Opain.Jarvis.Infraestructura.Datos.EntidadesIntegracion.DatosVuelo})">
+            <summary>
+                Funcionalidad de Grabar los Vuelos con fecha de 1 dia de antelacion consultada por jde
+            </summary>
+            <param name="lstVuelos">Parametro de entrada para d_Daily</param>
+            <returns></returns>
+        </member>
+        <member name="T:Opain.Jarvis.Servicios.ConexionJDE.Repositorio.UltRowsTblsEX">
+            <summary>
+            Clase DatosExento tiene la finalidad de c
+            </summary>
+        </member>
+    </members>
+</doc>

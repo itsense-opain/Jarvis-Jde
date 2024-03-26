@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{E4F11502-55E1-44F7-8BC3-FC2271164F77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{79B4DBD2-258B-4640-85CD-A8753EA37D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{2750F026-8F49-4ED2-888D-D92BB44D5315}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{FD37D88F-E4FF-4BF3-A267-E56760F57D04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opain.Jarvis.Aplicacion.Principal", "Opain.Jarvis.Aplicacion.Principal\Opain.Jarvis.Aplicacion.Principal.csproj", "{97D5B00A-428C-46A1-9A49-E65B83E4144C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opain.Jarvis.Dominio.Entidades", "Opain.Jarvis.Dominio.Entidades\Opain.Jarvis.Dominio.Entidades.csproj", "{159B32E4-6487-4173-92C2-0D2357F462D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opain.Jarvis.Infraestructura.Datos", "Opain.Jarvis.Infraestructura.Datos\Opain.Jarvis.Infraestructura.Datos.csproj", "{042445DA-FE5B-4F9D-B872-46ACE246580F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F053EDF-12CA-4D8B-B886-7A9A57F24FE9}"
+	ProjectSection(SolutionItems) = preProject
+		.filenesting.json = .filenesting.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opain.Jarvis.EnvioCorreos", "Opain.Jarvis.EnvioCorreos\Opain.Jarvis.EnvioCorreos.csproj", "{29C3713E-F342-4AD7-AA1C-7D9BA9216763}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opain.Jarvis.Servicios.ConexionJDE", "Opain.Jarvis.Servicios.ConexionJDE\Opain.Jarvis.Servicios.ConexionJDE.csproj", "{9EABCBFA-5A5B-4647-AA15-E1E37881FCCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opain.Jarvis.Servicios.Store", "Opain.Jarvis.Servicios.Store\Opain.Jarvis.Servicios.Store.csproj", "{F7873A1A-9EB1-4EAA-AAAF-7A74143FFE33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Motor", "Motor", "{5F7A55FD-FB14-4852-870D-66C9FFBCF503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opain.Jarvis.Motor", "Opain.Jarvis.Motor\Opain.Jarvis.Motor.csproj", "{1563551D-9174-40C7-907A-86CFF4F24514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opain.Jarvis.Motor.Negocio", "Opain.Jarvis.Motor.Negocio\Opain.Jarvis.Motor.Negocio.csproj", "{92CEC389-F33D-47DD-8864-C74D979F47F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opain.Jarvis.Motor.Integracion", "Opain.Jarvis.Motor.Integracion\Opain.Jarvis.Motor.Integracion.csproj", "{A2E6691E-D8FB-498E-AE72-8D77C78F3619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opain.Jarvis.Tareas.Integracion", "Opain.Jarvis.Tareas.Integracion\Opain.Jarvis.Tareas.Integracion.csproj", "{856210D1-C08A-4E3D-AF67-3D4995129839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D5B00A-428C-46A1-9A49-E65B83E4144C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D5B00A-428C-46A1-9A49-E65B83E4144C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D5B00A-428C-46A1-9A49-E65B83E4144C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D5B00A-428C-46A1-9A49-E65B83E4144C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159B32E4-6487-4173-92C2-0D2357F462D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159B32E4-6487-4173-92C2-0D2357F462D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159B32E4-6487-4173-92C2-0D2357F462D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159B32E4-6487-4173-92C2-0D2357F462D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042445DA-FE5B-4F9D-B872-46ACE246580F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042445DA-FE5B-4F9D-B872-46ACE246580F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042445DA-FE5B-4F9D-B872-46ACE246580F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042445DA-FE5B-4F9D-B872-46ACE246580F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C3713E-F342-4AD7-AA1C-7D9BA9216763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C3713E-F342-4AD7-AA1C-7D9BA9216763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C3713E-F342-4AD7-AA1C-7D9BA9216763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C3713E-F342-4AD7-AA1C-7D9BA9216763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EABCBFA-5A5B-4647-AA15-E1E37881FCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EABCBFA-5A5B-4647-AA15-E1E37881FCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EABCBFA-5A5B-4647-AA15-E1E37881FCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EABCBFA-5A5B-4647-AA15-E1E37881FCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7873A1A-9EB1-4EAA-AAAF-7A74143FFE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7873A1A-9EB1-4EAA-AAAF-7A74143FFE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7873A1A-9EB1-4EAA-AAAF-7A74143FFE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7873A1A-9EB1-4EAA-AAAF-7A74143FFE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1563551D-9174-40C7-907A-86CFF4F24514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1563551D-9174-40C7-907A-86CFF4F24514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1563551D-9174-40C7-907A-86CFF4F24514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1563551D-9174-40C7-907A-86CFF4F24514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CEC389-F33D-47DD-8864-C74D979F47F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CEC389-F33D-47DD-8864-C74D979F47F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CEC389-F33D-47DD-8864-C74D979F47F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CEC389-F33D-47DD-8864-C74D979F47F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E6691E-D8FB-498E-AE72-8D77C78F3619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E6691E-D8FB-498E-AE72-8D77C78F3619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E6691E-D8FB-498E-AE72-8D77C78F3619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E6691E-D8FB-498E-AE72-8D77C78F3619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856210D1-C08A-4E3D-AF67-3D4995129839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856210D1-C08A-4E3D-AF67-3D4995129839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856210D1-C08A-4E3D-AF67-3D4995129839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856210D1-C08A-4E3D-AF67-3D4995129839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97D5B00A-428C-46A1-9A49-E65B83E4144C} = {2750F026-8F49-4ED2-888D-D92BB44D5315}
+		{159B32E4-6487-4173-92C2-0D2357F462D6} = {79B4DBD2-258B-4640-85CD-A8753EA37D4E}
+		{042445DA-FE5B-4F9D-B872-46ACE246580F} = {E4F11502-55E1-44F7-8BC3-FC2271164F77}
+		{29C3713E-F342-4AD7-AA1C-7D9BA9216763} = {FD37D88F-E4FF-4BF3-A267-E56760F57D04}
+		{9EABCBFA-5A5B-4647-AA15-E1E37881FCCD} = {FD37D88F-E4FF-4BF3-A267-E56760F57D04}
+		{F7873A1A-9EB1-4EAA-AAAF-7A74143FFE33} = {FD37D88F-E4FF-4BF3-A267-E56760F57D04}
+		{1563551D-9174-40C7-907A-86CFF4F24514} = {5F7A55FD-FB14-4852-870D-66C9FFBCF503}
+		{92CEC389-F33D-47DD-8864-C74D979F47F1} = {5F7A55FD-FB14-4852-870D-66C9FFBCF503}
+		{A2E6691E-D8FB-498E-AE72-8D77C78F3619} = {5F7A55FD-FB14-4852-870D-66C9FFBCF503}
+		{856210D1-C08A-4E3D-AF67-3D4995129839} = {5F7A55FD-FB14-4852-870D-66C9FFBCF503}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {315FA0E8-3BDC-4DA3-B38D-A1D655BD561C}
+	EndGlobalSection
+EndGlobal
